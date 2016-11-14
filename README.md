@@ -30,6 +30,19 @@ JSON-data = {"input": {"action": [{"order": "1", "set-dl-dst-action": {"address"
 
 
 ```
+Or Json request string as:
+```
+{
+    "input": {
+        "connection-cookie": 123456,
+        "egress": "/opendaylight-inventory:nodes/opendaylight-inventory:node[opendaylight-inventory:id='openflow:11']/opendaylight-inventory:node-connector[opendaylight-inventory:id='openflow:11:2']",
+        "node": "/opendaylight-inventory:nodes/opendaylight-inventory:node[opendaylight-inventory:id='openflow:11']",
+        "payload": "QAwpyJZqAAwp06cxCABFAAA8fR0AAEABaCjAqAoVwKgKFggATJcCAP7EYWJjZGVmZ2hpamtsbW5vcHFyc3R1dndhYmNkZWZnaGk="
+    }
+}
+
+```
+
 
 # HOW TO BUILD
 In order to build the project, it's required to have JDK 1.8+ and Maven 3.2+. 
