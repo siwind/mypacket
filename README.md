@@ -43,6 +43,14 @@ Or Json request string as:
 
 ```
 
+The 'curl' command syntax for sending POST request is:
+```
+curl --user "admin":"admin" -H "Accept: application/json" \
+-H "Content-type: application/json" -X POST \
+--data "REQUEST-DATA" \
+http://<IP>:8181/restconf/operations/packet-processing:transmit-packet
+```
+
 
 # HOW TO BUILD
 In order to build the project, it's required to have JDK 1.8+ and Maven 3.2+. 
