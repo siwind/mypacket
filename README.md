@@ -56,6 +56,7 @@ http://<IP>:8181/restconf/operations/packet-processing:transmit-packet
 In order to build the project, it's required to have JDK 1.8+ and Maven 3.2+. 
 The following commands are used to build and run.
 ```
+$ git clone https://github.com/siwind/mypacket
 $ mvn clean install
 $ ./karaf/target/assembly/bin/karaf 
 
